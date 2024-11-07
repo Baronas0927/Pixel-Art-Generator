@@ -49,7 +49,7 @@ gridButton.addEventListener("click", () => {
 
         for(let j = 0; j < gridWidth.value; j++){
             count += 2;
-            let dcol = document.createElement("div");
+            let col = document.createElement("div");
             col.classList.add("gridCol");
             col.setAttribute("id", `gridCol${count}`);
             col.addEventListener(events[deviceType].down, () => {
