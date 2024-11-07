@@ -35,7 +35,7 @@ const isTouchDevice = () => {
         deviceType = "mouse";
         return false;
     }
-}
+};
 
 isTouchDevice();
 
@@ -94,7 +94,7 @@ function checker(elementId){
         }
     }
     });
-}
+};
 
 clearGridButton.addEventListener("click", () => {
     container.innerHTML = "";
